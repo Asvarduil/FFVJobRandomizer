@@ -1,0 +1,59 @@
+body {
+	background-color: #333;
+}
+
+#container {
+	padding: 2em;
+
+	margin: 5em 10em 5em 10em;
+	border: 1px solid #666;
+	border-radius: 1em;
+	
+	text-align: center;
+	background-color: #CCC;
+	color: #333;
+}
+
+#page-title {
+	font-size: 2em;
+	padding: 0.5em 0 1em 0;
+}
+
+	#container a {
+		padding: 0.5em 1em;
+		border: 2px solid #FFF;
+		border-radius: 0.5em;
+		background: #36A;
+		color: #FFF;
+		text-decoration: none;
+	}
+	
+		#container a:visited {
+			background: #36A;
+		}
+		
+		#container a:hover {
+			background: #47B;
+		}
+		
+		#container a:active {
+			background: #259;
+		}
+		
+	.non-selected {
+		opacity: 0.5;
+		filter: alpha(opacity=50);
+	}
+	
+	#wind-class-section,
+	#water-class-section,
+	#fire-class-section,
+	#earth-class-section {
+		display: inline-block;
+		margin: 1em;
+		padding: 1em;
+	}
+
+.hidden {
+	display: none;
+}

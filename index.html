@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Fantasy V Job Randomizer</title>
+	<link rel='stylesheet' href='site.css' />
+</head>
+
+<body>
+
+	<div id="container">
+		<div id='page-title'>Final Fantasy V Job Randomizer</div>
+	
+		<div id="run-types">
+			<a href='#' id='normal-run'>Normal</a>
+			<a href='#' id='classic-run'>Classic</a>
+			<a href='#' id='team-750-run'>Team 750</a>
+			<a href='#' id='non-750-run'>Non-Team 750</a>
+			<a href='#' id='random-run'>Random</a>
+		</div>
+		
+		<div id="restriction-types" class='hidden'>
+			<a href='#' id='no-restriction'>No Restriction</a>
+			<a href='#' id='natural-restriction'>Natural Crystal Only</a>
+		</div>
+		
+		<div id='risk-types' class='hidden'>
+			<a href='#' id='no-risk'>No Risk</a>
+			<a href='#' id='zerker-risk'>Berzerker Risk!</a>
+		</div>
+		
+		<div id='classic-classes' class='hidden'>
+			<a href='#' id='generate-classic-classes'>Generate Class Assignments</a><br /><br />
+			
+			Bartz: <span id='bartz-class'>Freelancer</span><br /><br />
+			Reina: <span id='reina-class'>Freelancer</span><br /><br />
+			Galuf: <span id='galuf-class'>Freelancer</span><br /><br />
+			Faris: <span id='faris-class'>Freelancer</span>
+		</div>
+		
+		<div id='crystal-classes' class='hidden'>
+			<div id='wind-class-section'>
+				<a href='#' id='generate-wind-class'>Generate</a><br /><br />
+				Bartz (Wind): <span id='wind-class'>Freelancer</span>
+			</div>
+			
+			<div id='water-class-section'>
+				<a href='#' id='generate-water-class'>Generate</a><br /><br />
+				Reina (Water): <span id='water-class'>Freelancer</span>
+			</div>			
+			
+			<div id='fire-class-section'>
+				<a href='#' id='generate-fire-class'>Generate</a><br /><br />
+				Faris (Fire): <span id='fire-class'>Freelancer</span>
+			</div>		
+			
+			<div id='earth-class-section'>
+				<a href='#' id='generate-earth-class'>Generate</a><br /><br />
+				Galuf (Earth): <span id='earth-class'>Freelancer</span>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src='site.js'></script>
+
+</html>
